@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dancing with Doge!</title>
+</head>
+<body>
+    <body onload="startTime()"></body>
+    <main>
+        <div class="dogecontaimner">
+            <img id="doge" class="doge" src="https://c.tenor.com/mc3OyxhLazUAAAAC/doggo-doge.gif" alt="Dancing Doge :3">
+            <audio id="music" src="https://raw.githubusercontent.com/untalcisco/dancingDoge/main/Assets/navidad.mp3"></audio>
+        </div>
+        <div class="media-buttons">
+            <button id="play">¡Dale!</button>
+            <button id="pause"> ¡Detente! </button>
+        </div>
+    </main>
+    <footer>
+        <section class="clock" id="clockdate">
+            <div class="clockdate-wrapper">
+              <div id="clock"></div>
+              <div id="date"></div>
+            </div>
+        </section>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>

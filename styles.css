@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* animation-name: disco;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    background-image: url("https://c.tenor.com/dEU4fvG_XXYAAAAC/christmas-lights-twinkling.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main h1{
+    position: absolute;
+    bottom: 125px;
+}
+.doge{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.media-buttons{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 30px;
+    /* background-color: #45acad;
+    background-image: linear-gradient(43deg, #45acad 0%, #453c45 100%);*/
+    background-image: url("https://c.tenor.com/BgN2RhFP0IQAAAAC/winter-snow.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.media-buttons button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.play:hover{
+    cursor: pointer;
+}
+.pause:hover{
+    cursor: pointer;
+}
+
+@keyframes rotation {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
+/* @keyframes disco {
+    0% {
+        background: #db1e10;
+    }
+
+    20% {
+        background: #f1bc0c;
+    }
+
+    30% {
+        background: #1de20b;
+    }
+
+    40% {
+        background: #11c948;
+    }
+    
+    50% {
+        background: #0cb48a;
+    }
+
+    60% {
+        background: #07bcc9;
+    }
+
+    70% {
+        background: #1061ad;
+    }
+
+    80% {
+        background: #8123da;
+    }
+
+    90% {
+        background: #d11be9;
+    }
+
+    100% {
+        background: #c91717;
+    }
+} */
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    width: 100%;
+}
+.clockdate-wrapper {
+    background-color: #333;
+    height: 20vh;
+    text-align:center;
+}
+#clock{
+    background-color:#333;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+    padding: 20px;
+}
+#clock span {
+    color:white;
+    text-shadow:0px 0px 1px #333;
+    font-size: 2rem;
+}
+#date {
+    letter-spacing:10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#fff;
+}
